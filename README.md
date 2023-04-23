@@ -1,7 +1,7 @@
 
 # Quotes Display Browser Extension
 
-This is a simple browser extension that displays motivational quotes when you click on its icon or press its hotkey. The extension is available for Google Chrome, Firefox, and Microsoft Edge.
+This is a simple browser extension that displays motivational quotes when you click on its icon and press its hotkey. The extension is available for Google Chrome, Firefox, and Microsoft Edge.
 
 
 
@@ -31,7 +31,7 @@ To install the extension, follow these steps:
 
 ## Usage
 
-Click on the extension icon or press its hotkey to display a new motivational quote.
+Click on the extension icon and press its hotkey to display a new motivational quote.
 
 
 ## License
