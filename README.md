@@ -1,39 +1,54 @@
-
 # Quotes Display Browser Extension
 
-This is a simple browser extension that displays motivational quotes when you click on its icon and press its hotkey. The extension is available for Google Chrome, Firefox, and Microsoft Edge.
-
-
-
-
-
+A simple browser extension that displays random inspirational quotes from the [quotable.io](https://quotable.io/) API. The extension provides a clean, user-friendly interface to fetch and display motivational quotes with just a click.
 
 ## Features
 
-- Displays a random motivational quote when you click on the extension icon or press its hotkey
-
-
-
+- Displays random inspirational quotes from a vast collection
+- Clean and simple user interface
+- One-click quote generation
+- Lightweight and fast
+- Works offline (browser extension)
+- Uses the reliable quotable.io API
 
 ## Installation
 
-To get started with this project, simply download or clone the repository to your local machine.
+To install this extension in development mode:
 
-To install the extension, follow these steps:
-
-1. Download or clone the repository.
-2. Open your web browser and navigate to the extensions page.
-3. Enable developer mode.
-4. Click on "Load unpacked" and select the downloaded/ cloned repository folder.
-5. The extension should now be installed and ready to use.
-
-
+1. Clone this repository or download the source code
+2. Open your Chrome/Firefox/Edge browser and navigate to the extensions page
+   - For Chrome: go to `chrome://extensions/`
+   - For Firefox: go to `about:debugging#/runtime/this-firefox`
+   - For Edge: go to `edge://extensions/`
+3. Enable "Developer mode" (usually a toggle switch in the top-right corner)
+4. Click "Load unpacked" (Chrome/Edge) or "Load Temporary Add-on" (Firefox)
+5. Select the folder containing the extension files
 
 ## Usage
 
-Click on the extension icon and press its hotkey to display a new motivational quote.
+1. After installation, you'll see the extension icon in your browser's toolbar
+2. Click the extension icon to open the popup
+3. The popup will show the "Quote extension" interface
+4. Click the "Generate new quote" button to fetch and display a new random quote
 
+## Technical Details
+
+The extension is built using:
+- HTML, CSS, and JavaScript
+- Manifest V2 format
+- [quotable.io](https://quotable.io/) API for quote generation
+- Browser Extension APIs
+
+## Project Structure
+
+```
+├── manifest.json     # Extension configuration
+├── popup.html       # Main UI file
+├── popup.js         # Core functionality
+├── LICENSE          # MIT license
+└── README.md        # Documentation
+```
 
 ## License
 
-This project is licensed under the MIT license. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
