@@ -39,16 +39,6 @@ The extension is built using:
 - [quotable.io](https://quotable.io/) API for quote generation
 - Browser Extension APIs
 
-## Project Structure
-
-```
-├── manifest.json     # Extension configuration
-├── popup.html       # Main UI file
-├── popup.js         # Core functionality
-├── LICENSE          # MIT license
-└── README.md        # Documentation
-```
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
